@@ -38,7 +38,7 @@ def translater(translate_sentence,translated_num,lang,proxy,proxies,sentence):
             print('第' + str(translate_sentence) + '段,正在翻译第' + str(translated_num + 1) + '次')
         else:
             print("正在翻译为中文")
-        time.sleep(1)
+        time.sleep(5)
         if (proxy):
             rqs = requests.post(
                 'https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl=auto&tl='+lang[o]+'&q=' + sentence,
