@@ -7,4 +7,4 @@ GTF(Google-Translate-File),一个方便调用Google Translate进行生草翻译�
 <br>
 个人觉得便宜大碗的机场 <a href="https://大机场.net">大机场.net<a>
 <br>
-使用教程 <a href="https://ssrvps.org">月下博客<a>
+使用教程 <a href="https://ssrvps.org/archives/1483">月下博客<a>
