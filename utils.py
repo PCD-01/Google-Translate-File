@@ -24,6 +24,8 @@ def found_lang(lang):
             lang[o] = 'pt'
         elif (lang[o] == 'it'):
             lang[o] = 'it'
+        else:
+            lang[o] = lang[o]
         o += 1
     return lang
 
