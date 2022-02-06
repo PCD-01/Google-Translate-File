@@ -21,7 +21,7 @@ startfile = str(input("需要翻译的文件名(同一目录,带文件名后缀,
 endfile = str(input("翻译后输出文件名(带文件名后缀,例如.txt):"))
 
 insof = open(startfile, 'r', encoding='utf-8')
-outof = open(endfile, 'w')
+outof = open(endfile, 'w', encoding='utf-8')
 
 proxy = input("本地代理端口(为空则不使用代理):")
 proxies = {
